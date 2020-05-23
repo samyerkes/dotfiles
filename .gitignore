@@ -3,6 +3,7 @@
 !.aws
 !.aws/config
 !brew.txt
+!.gitconfig
 !.gitignore
 !readme.md
 !.vimrc

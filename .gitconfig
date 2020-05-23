@@ -1,0 +1,5 @@
+[user]
+    name = Sam Yerkes
+    email = samuelyerkes@gmail.com
+[includeIf "gitdir:~/vcu/"]
+    path = ~/vcu/.gitconfig
