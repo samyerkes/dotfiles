@@ -6,7 +6,6 @@ aspell
 autoconf
 aws-sam-cli
 awscli
-brew-php-switcher
 brotli
 c-ares
 composer
@@ -50,7 +49,7 @@ mysql@5.7
 nghttp2
 nginx
 nmap
-node
+nvm
 oniguruma
 openldap
 openssl

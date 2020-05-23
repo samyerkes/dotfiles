@@ -27,3 +27,7 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 source ~/.aliases
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 export PATH="/usr/local/sbin:$PATH"
+
+# NVM
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
