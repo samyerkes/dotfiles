@@ -1,0 +1,41 @@
+# Docker
+alias d="docker"
+alias dc="docker-compose"
+
+# Gatsby
+alias g="gatsby"
+
+# Git
+alias nah="git reset --hard && git clean -df"
+alias submods="git submodule foreach git pull origin master"
+alias gsquash="git reset $(git commit-tree HEAD^{tree} -m 'A new start')"
+
+# Laravel
+alias a="php artisan"
+alias dbr="php artisan migrate:refresh --seed"
+alias atest="./vendor/bin/phpunit"
+
+# Navigation
+alias .="open ."
+alias ..="cd ../"
+alias ...="cd ../.."
+alias c="clear"
+alias ll="ls -la"
+alias hf="sudo vim /etc/hosts"
+alias dt="cd ~/desktop"
+
+# Python
+alias python="python3"
+alias freeze="pip freeze > requirements.txt"
+
+# Random
+alias size="du -sch "
+alias sshconfig="vim ~/.ssh/config"
+alias aliases="vim ~/.aliases"
+alias weather="curl http://wttr.in/richmond"
+
+# Symfony
+alias sfs="php app/console server:run"
+alias sf="php app/console"
+
+
