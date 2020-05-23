@@ -1,5 +1,7 @@
 *
 !.aliases
+!.aws
+!.aws/config
 !.gitignore
 !readme.md
 !.vimrc
