@@ -33,9 +33,8 @@ alias size="du -sch "
 alias sshconfig="vim ~/.ssh/config"
 alias aliases="vim ~/.aliases"
 alias weather="curl http://wttr.in/richmond"
+alias pack="tar -czvf"
 
 # Symfony
 alias sfs="php app/console server:run"
 alias sf="php app/console"
-
-
