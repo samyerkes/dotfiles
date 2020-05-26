@@ -5,6 +5,7 @@
 !brew.txt
 !.gitconfig
 !.gitignore
+!.nvmrc
 !readme.md
 !.vimrc
 !.zshrc
