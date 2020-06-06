@@ -38,3 +38,6 @@ alias pack="tar -czvf"
 # Symfony
 alias sfs="php app/console server:run"
 alias sf="php app/console"
+
+# Serverless
+alias sls="serverless"
