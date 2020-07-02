@@ -27,8 +27,11 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 source ~/.aliases
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/aws/bin:$PATH"
 
 # NVM
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+# Command completion
+autoload bashcompinit && bashcompinit
+complete -C '/usr/local/bin/aws_completer' aws
